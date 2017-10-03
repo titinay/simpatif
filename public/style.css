@@ -1,0 +1,133 @@
+body { 
+	font-family: Arial, sans-serif; 
+	line-height: 1.4;
+	font-size: 12px;
+	background: #212121;
+}
+
+a { 
+	color: #700C0C; text-decoration: none;
+}
+
+#wrap { 
+	width: 800px;
+	margin: 20px auto;
+}
+
+#header {
+	height: 120px;
+	background: url(head.jpg) no-repeat;
+}
+#header h1 {
+	margin: 0;
+	padding: 30px 0 0 30px;
+	font-weight: 100;
+	font-size: 25px;
+	letter-spacing: -2px;
+}
+#header h1 a {
+	 text-decoration: none; 
+	 color: #fff; 
+ }
+#header h1 a:hover {
+	text-decoration: none;
+	border-bottom: 1px solid #F9F7ED;
+}
+#header h2 {
+	padding: 0 0 0 30px; 
+	margin: 0; 
+	color: #fff; 
+	font-weight: 100; 
+	font-size: 17px; 
+}
+
+#menu {
+	background: url(menu.jpg) no-repeat;
+	height: 40px;
+	line-height: 40px;
+}
+
+#menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 20px;
+}
+#menu ul li {
+	display: block;
+	float: left;
+}
+#menu ul li a {
+	display: block;
+	padding: 0 10px 0 10px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 600;
+}
+#menu ul li a:hover {
+	color: #fff;
+}
+#contentwrap {
+	background: url(content.jpg) repeat-y;
+	padding: 0 20px 0 30px;
+	background-color:white;
+}
+
+#content {
+	margin-top: 20px;
+	float: left;
+	width: 520px;
+}
+#content h2 {
+	margin: 0;
+	color: #1f1f1f;
+	line-height: 30px;
+	font-size: 17px;
+	font-weight: 100;
+}
+
+#content p { padding: 0 0 10px 0; color: #232323;}
+#content ul { padding: 0 20px 10px 30px; }
+
+#sidebar {
+	margin-top: 20px;
+	float: right;
+	width: 220px;
+}
+
+#sidebar h3 {
+	background: url(sidebarh3.jpg) no-repeat;
+	height: 40px;
+	line-height: 40px;
+	font-weight: 600;
+	font-size: 12px;
+	margin: 0; padding: 0 0 0 10px; 
+	color: #343434;
+	border: 1px solid #aaa;
+}
+#linko{
+	color:white;
+}
+#sidebar p { padding: 0 10px 10px 10px; color: #232323; }
+
+#sidebar ul {
+	padding: 0 0 10px 10px;
+	list-style-type: none; 
+	
+}
+
+#sidebar ul li {
+	background: url(list.jpg) no-repeat center left;
+	padding: 2px 0 2px 25px;
+}
+#footer { 
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	background: url(footer.jpg) no-repeat;
+	height: 50px;
+	line-height: 50px;
+}
+#footer p { padding: 0; margin: 0; }
+#footer a { color: #fff; }
+#footer a:hover { text-decoration: underline; }
